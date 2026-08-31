@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Navbar_text';
+  src: url(Fonts/Mybread.ttf);
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.categoria-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.categoria-btn.activo {
+  background-color: #6f4e37;
+  color: white;
+}
+
+.productos {
+  transition: 0.4s;
+}
+
+.productos.salir {
+  opacity: 0;
+  transform: translateX(-80px);
+}
+
+.productos.entrar {
+  opacity: 0;
+  transform: translateX(80px);
+}
+
+.producto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 16rem;
+}
+
+.Footer {
+  margin-top: 150px;
+  height: 400px;
+  background-image:
+    linear-gradient(to bottom,
+      white 0%,
+      rgba(255, 255, 255, 0) 40%),
+    url(Resources/Index_resources/Footer.png);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.footer-option {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid #8B5A2B;
+  border-radius: 15px;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5a351d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.footer-option:hover {
+    transform: translateY(-5px);
+    background-color: #8B5A2B;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}

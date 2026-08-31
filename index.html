@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Resources/Index_resources/Panaderia.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_index.css">
+
+    <title>Panaderia</title>
+
+
+</head>
+
+<body>
+
+
+    <section class="Navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+
+                            <a class="navbar-brand" href="#">
+                                <img src="Resources/Index_resources/Logo 2.png" alt="Panaderia" width="220"
+                                    height="70" class="d-inline-block align-text-top">
+
+                                <i style="font-family: 'Navbar_text'; font-size: 2rem;">
+                                    <!-- PANADERIA -->
+                                </i>
+                            </a>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+
+
+    <section class="Content">
+
+        <div class="container">
+
+            <!-- BOTONES -->
+
+            <div class="categorias">
+
+                <button class="categoria-btn activo" onclick="cambiarCategoria('migajon', this)">
+                    Migajón
+                </button>
+
+                <button class="categoria-btn" onclick="cambiarCategoria('feite', this)">
+                    Feite
+                </button>
+
+                <button class="categoria-btn" onclick="cambiarCategoria('reposteria', this)">
+                    Repostería
+                </button>
+
+                <button class="categoria-btn" onclick="cambiarCategoria('temporada', this)">
+                    Temporada
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTOS -->
+
+            <div id="productos" class="row productos">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="Footer">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-option">
+                        <span>🥖
+                            Sobre nosotros</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-option">
+                        <span>📞
+                            Contáctanos</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-option">
+                        <span>🎂
+                            Personalizaciones</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-option">
+                        <span>❤️
+                            Saber más</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
