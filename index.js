@@ -10,7 +10,7 @@ const productos = {
         {
             nombre: "Concha",
             precio: 9.00,
-            imagen: "/Resources/Index_resources/mantenimiento.png"
+            imagen: "../Resources/Index_resources/mantenimiento.png"
         },
         {
             nombre: "Panadero",
