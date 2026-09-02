@@ -15,17 +15,17 @@ const productos = {
         {
             nombre: "Panadero",
             precio: 9.00,
-            imagen: "Resources/Index_resources/mantenimiento.png"
+            imagen: "..Resources/Index_resources/mantenimiento.png"
         },
         {
             nombre: "Gusanito",
             precio: 9.00,
-            imagen: "Resources/Index_resources/mantenimiento.png"
+            imagen: "...Resources/Index_resources/mantenimiento.png"
         },
         {
             nombre: "Bolita de queso",
             precio: 8.00,
-            imagen: "Resources/Index_resources/mantenimiento.png"
+            imagen: ".../Resources/Index_resources/mantenimiento.png"
         },
         {
             nombre: "Rebanada",
